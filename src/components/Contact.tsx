@@ -64,7 +64,7 @@ const Contact = () => {
                   <h4 className="font-semibold text-gray-900 mb-1">
                     Phone Numbers
                   </h4>
-                  <p className="text-gray-600">+91 98765 43210</p>
+                  <p className="text-gray-600">+(510) 566-0668</p>
                 </div>
               </div>
 
@@ -89,11 +89,8 @@ const Contact = () => {
                     Office Address
                   </h4>
                   <p className="text-gray-600">
-                    123, Brigade Road
+                    Cupertino, California
                     <br />
-                    Bangalore, Karnataka - 560001
-                    <br />
-                    India
                   </p>
                 </div>
               </div>
@@ -112,15 +109,6 @@ const Contact = () => {
                     Sunday: 10:00 AM - 5:00 PM
                   </p>
                 </div>
-              </div>
-            </div>
-
-            {/* Map Placeholder */}
-            <div className="mt-8 bg-gray-200 rounded-2xl h-64 flex items-center justify-center">
-              <div className="text-center text-gray-500">
-                <MapPin className="h-12 w-12 mx-auto mb-2" />
-                <p>Interactive Map</p>
-                <p className="text-sm">Brigade Road, Bangalore</p>
               </div>
             </div>
           </div>
