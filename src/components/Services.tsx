@@ -1,4 +1,3 @@
-import React from "react";
 import {
   Home,
   Search,
@@ -121,10 +120,6 @@ const Services = () => {
                   </li>
                 ))}
               </ul>
-
-              <button className="mt-6 w-full bg-blue-600 hover:bg-blue-700 text-white py-3 px-6 rounded-lg transition-colors font-semibold">
-                Learn More
-              </button>
             </div>
           ))}
         </div>

@@ -1,12 +1,12 @@
-import React from 'react';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import FeaturedProperties from './components/FeaturedProperties';
-import About from './components/About';
-import Services from './components/Services';
-import Testimonials from './components/Testimonials';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import React from "react";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import FeaturedProperties from "./components/FeaturedProperties";
+import About from "./components/About";
+import Services from "./components/Services";
+import Testimonials from "./components/Testimonials";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       <FeaturedProperties />
       <About />
       <Services />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Contact />
       <Footer />
     </div>
