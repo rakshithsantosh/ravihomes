@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Menu, X, Home, Phone, Mail } from 'lucide-react';
+import React, { useState } from "react";
+import { Menu, X, Home, Phone, Mail } from "lucide-react";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,24 +11,41 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <Home className="h-8 w-8 text-blue-600" />
-            <span className="text-2xl font-bold text-gray-900">Nagaraj Homes</span>
+            <span className="text-2xl font-bold text-gray-900">
+              Ravi <span className="text-yellow-400">Homes</span>
+            </span>
           </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#home" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
+            <a
+              href="#home"
+              className="text-gray-700 hover:text-blue-600 transition-colors font-medium"
+            >
               Home
             </a>
-            <a href="#properties" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
+            <a
+              href="#properties"
+              className="text-gray-700 hover:text-blue-600 transition-colors font-medium"
+            >
               Properties
             </a>
-            <a href="#about" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
+            <a
+              href="#about"
+              className="text-gray-700 hover:text-blue-600 transition-colors font-medium"
+            >
               About
             </a>
-            <a href="#services" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
+            <a
+              href="#services"
+              className="text-gray-700 hover:text-blue-600 transition-colors font-medium"
+            >
               Services
             </a>
-            <a href="#contact" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
+            <a
+              href="#contact"
+              className="text-gray-700 hover:text-blue-600 transition-colors font-medium"
+            >
               Contact
             </a>
           </nav>
@@ -37,11 +54,11 @@ const Header = () => {
           <div className="hidden lg:flex items-center space-x-4">
             <div className="flex items-center space-x-2 text-sm text-gray-600">
               <Phone className="h-4 w-4" />
-              <span>+91 98765 43210</span>
+              <span>+(510) 566-0668</span>
             </div>
             <div className="flex items-center space-x-2 text-sm text-gray-600">
               <Mail className="h-4 w-4" />
-              <span>info@nagarajhomes.com</span>
+              <span>ravi.pragnay@gmail.com</span>
             </div>
           </div>
 
@@ -51,7 +68,11 @@ const Header = () => {
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="text-gray-700 hover:text-blue-600 transition-colors"
             >
-              {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+              {isMenuOpen ? (
+                <X className="h-6 w-6" />
+              ) : (
+                <Menu className="h-6 w-6" />
+              )}
             </button>
           </div>
         </div>

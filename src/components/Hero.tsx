@@ -1,6 +1,3 @@
-import React from "react";
-import { Search, MapPin, Home, Star } from "lucide-react";
-
 const Hero = () => {
   return (
     <section
