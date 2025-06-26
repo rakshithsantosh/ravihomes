@@ -1,5 +1,5 @@
-import React from 'react';
-import { Award, Users, Shield, TrendingUp } from 'lucide-react';
+import React from "react";
+import { Award, Users, Shield, TrendingUp } from "lucide-react";
 
 const About = () => {
   return (
@@ -9,17 +9,25 @@ const About = () => {
           {/* Left Content */}
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              About Nagaraj Homes
+              About Ravi Homes
             </h2>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              With over 15 years of excellence in the real estate industry, Nagaraj Homes has been 
-              the trusted partner for families seeking their dream homes. We specialize in premium 
-              residential and commercial properties across Bangalore and surrounding areas.
+              Helping people find a place they can truly call home is at the
+              heart of what I do. I specialize in residential and commercial
+              real estate across California, with a strong focus on delivering a
+              personalized, seamless experience for every client. My approach is
+              rooted in integrity, transparency, and an unwavering commitment to
+              client satisfaction. Whether you're buying your first home,
+              upgrading to a new space, or making a strategic investment, I’m
+              here to guide you every step of the way. I believe that every
+              property tells a story—and it’s my goal to help you find one that
+              reflects your aspirations and lifestyle.
             </p>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              Our commitment to quality, transparency, and customer satisfaction has helped over 500 
-              families find their perfect homes. We believe that every family deserves a home that 
-              reflects their dreams and aspirations.
+              Our commitment to quality, transparency, and customer satisfaction
+              has helped over 500 families find their perfect homes. We believe
+              that every family deserves a home that reflects their dreams and
+              aspirations.
             </p>
 
             {/* Features */}
@@ -29,8 +37,12 @@ const About = () => {
                   <Award className="h-6 w-6 text-blue-600" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-gray-900 mb-1">Quality Assured</h4>
-                  <p className="text-sm text-gray-600">Premium construction standards</p>
+                  <h4 className="font-semibold text-gray-900 mb-1">
+                    Quality Assured
+                  </h4>
+                  <p className="text-sm text-gray-600">
+                    Premium construction standards
+                  </p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
@@ -38,8 +50,12 @@ const About = () => {
                   <Users className="h-6 w-6 text-blue-600" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-gray-900 mb-1">Expert Team</h4>
-                  <p className="text-sm text-gray-600">Experienced professionals</p>
+                  <h4 className="font-semibold text-gray-900 mb-1">
+                    Expert Team
+                  </h4>
+                  <p className="text-sm text-gray-600">
+                    Experienced professionals
+                  </p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
@@ -47,7 +63,9 @@ const About = () => {
                   <Shield className="h-6 w-6 text-blue-600" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-gray-900 mb-1">Trusted Service</h4>
+                  <h4 className="font-semibold text-gray-900 mb-1">
+                    Trusted Service
+                  </h4>
                   <p className="text-sm text-gray-600">Transparent dealings</p>
                 </div>
               </div>
@@ -56,8 +74,12 @@ const About = () => {
                   <TrendingUp className="h-6 w-6 text-blue-600" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-gray-900 mb-1">Growth Focused</h4>
-                  <p className="text-sm text-gray-600">Future-ready investments</p>
+                  <h4 className="font-semibold text-gray-900 mb-1">
+                    Growth Focused
+                  </h4>
+                  <p className="text-sm text-gray-600">
+                    Future-ready investments
+                  </p>
                 </div>
               </div>
             </div>
@@ -73,16 +95,20 @@ const About = () => {
               />
             </div>
             <div className="absolute -bottom-8 -left-8 bg-yellow-500 text-white p-6 rounded-2xl shadow-xl">
-              <div className="text-3xl font-bold mb-1">15+</div>
-              <div className="text-sm">Years of Excellence</div>
+              <div className="text-3xl font-bold mb-1"></div>
+              <div className="text-sm">
+                Your Trusted Partner in the Home Buying Journey
+              </div>
             </div>
           </div>
         </div>
 
         {/* Team Section */}
         <div className="mt-20">
-          <h3 className="text-3xl font-bold text-gray-900 text-center mb-12">Our Leadership Team</h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <h3 className="text-3xl font-bold text-gray-900 text-center mb-12">
+            Our Leadership Team
+          </h3>
+          <div className="flex justify-center">
             <div className="text-center">
               <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden shadow-lg">
                 <img
@@ -91,33 +117,13 @@ const About = () => {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h4 className="text-xl font-bold text-gray-900 mb-2">Nagaraj Kumar</h4>
+              <h4 className="text-xl font-bold text-gray-900 mb-2">
+                Ravi Pavagada
+              </h4>
               <p className="text-gray-600 mb-2">Founder & CEO</p>
-              <p className="text-sm text-gray-500">15+ years in real estate development</p>
-            </div>
-            <div className="text-center">
-              <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden shadow-lg">
-                <img
-                  src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=300"
-                  alt="Priya Nagaraj"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <h4 className="text-xl font-bold text-gray-900 mb-2">Priya Nagaraj</h4>
-              <p className="text-gray-600 mb-2">VP Operations</p>
-              <p className="text-sm text-gray-500">Expert in project management</p>
-            </div>
-            <div className="text-center">
-              <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden shadow-lg">
-                <img
-                  src="https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=300"
-                  alt="Rajesh Kumar"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <h4 className="text-xl font-bold text-gray-900 mb-2">Rajesh Kumar</h4>
-              <p className="text-gray-600 mb-2">Head of Sales</p>
-              <p className="text-sm text-gray-500">Customer relationship specialist</p>
+              <p className="text-sm text-gray-500">
+                Your goto realtor in bay area
+              </p>
             </div>
           </div>
         </div>
