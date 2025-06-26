@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { Menu, X, Home, Phone, Mail } from "lucide-react";
+import { Menu, X, Phone, Mail } from "lucide-react";
+import logo from "./logo.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,10 +11,10 @@ const Header = () => {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <Home className="h-8 w-8 text-blue-600" />
-            <span className="text-2xl font-bold text-gray-900">
+            <img className="w-35 h-20" src={logo} />
+            {/* <span className="text-2xl font-bold text-gray-900">
               Ravi <span className="text-yellow-400">Homes</span>
-            </span>
+            </span> */}
           </div>
 
           {/* Desktop Navigation */}
