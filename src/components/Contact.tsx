@@ -1,33 +1,37 @@
-import React, { useState } from 'react';
-import { Phone, Mail, MapPin, Clock, Send } from 'lucide-react';
+import React, { useState } from "react";
+import { Phone, Mail, MapPin, Clock, Send } from "lucide-react";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    message: '',
-    propertyType: ''
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
+    propertyType: "",
   });
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<
+      HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
+    >
+  ) => {
     setFormData({
       ...formData,
-      [e.target.name]: e.target.value
+      [e.target.name]: e.target.value,
     });
   };
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // Handle form submission
-    console.log('Form submitted:', formData);
-    alert('Thank you for your inquiry! We will get back to you soon.');
+    console.log("Form submitted:", formData);
+    alert("Thank you for your inquiry! We will get back to you soon.");
     setFormData({
-      name: '',
-      email: '',
-      phone: '',
-      message: '',
-      propertyType: ''
+      name: "",
+      email: "",
+      phone: "",
+      message: "",
+      propertyType: "",
     });
   };
 
@@ -39,24 +43,28 @@ const Contact = () => {
             Get In Touch
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Ready to start your property journey? Contact us today for expert guidance and personalized service
+            Ready to start your property journey? Contact us today for expert
+            guidance and personalized service
           </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Contact Information */}
           <div>
-            <h3 className="text-2xl font-bold text-gray-900 mb-8">Contact Information</h3>
-            
+            <h3 className="text-2xl font-bold text-gray-900 mb-8">
+              Contact Information
+            </h3>
+
             <div className="space-y-6">
               <div className="flex items-start space-x-4">
                 <div className="bg-blue-100 p-3 rounded-lg">
                   <Phone className="h-6 w-6 text-blue-600" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-gray-900 mb-1">Phone Numbers</h4>
+                  <h4 className="font-semibold text-gray-900 mb-1">
+                    Phone Numbers
+                  </h4>
                   <p className="text-gray-600">+91 98765 43210</p>
-                  <p className="text-gray-600">+91 87654 32109</p>
                 </div>
               </div>
 
@@ -65,7 +73,9 @@ const Contact = () => {
                   <Mail className="h-6 w-6 text-blue-600" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-gray-900 mb-1">Email Address</h4>
+                  <h4 className="font-semibold text-gray-900 mb-1">
+                    Email Address
+                  </h4>
                   <p className="text-gray-600">info@nagarajhomes.com</p>
                   <p className="text-gray-600">sales@nagarajhomes.com</p>
                 </div>
@@ -76,10 +86,14 @@ const Contact = () => {
                   <MapPin className="h-6 w-6 text-blue-600" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-gray-900 mb-1">Office Address</h4>
+                  <h4 className="font-semibold text-gray-900 mb-1">
+                    Office Address
+                  </h4>
                   <p className="text-gray-600">
-                    123, Brigade Road<br />
-                    Bangalore, Karnataka - 560001<br />
+                    123, Brigade Road
+                    <br />
+                    Bangalore, Karnataka - 560001
+                    <br />
                     India
                   </p>
                 </div>
@@ -90,9 +104,12 @@ const Contact = () => {
                   <Clock className="h-6 w-6 text-blue-600" />
                 </div>
                 <div>
-                  <h4 className="font-semibold text-gray-900 mb-1">Business Hours</h4>
+                  <h4 className="font-semibold text-gray-900 mb-1">
+                    Business Hours
+                  </h4>
                   <p className="text-gray-600">
-                    Monday - Saturday: 9:00 AM - 7:00 PM<br />
+                    Monday - Saturday: 9:00 AM - 7:00 PM
+                    <br />
                     Sunday: 10:00 AM - 5:00 PM
                   </p>
                 </div>
@@ -111,11 +128,16 @@ const Contact = () => {
 
           {/* Contact Form */}
           <div className="bg-white rounded-2xl shadow-lg p-8">
-            <h3 className="text-2xl font-bold text-gray-900 mb-6">Send us a Message</h3>
-            
+            <h3 className="text-2xl font-bold text-gray-900 mb-6">
+              Send us a Message
+            </h3>
+
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
-                <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
+                <label
+                  htmlFor="name"
+                  className="block text-sm font-medium text-gray-700 mb-2"
+                >
                   Full Name *
                 </label>
                 <input
@@ -132,7 +154,10 @@ const Contact = () => {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+                  <label
+                    htmlFor="email"
+                    className="block text-sm font-medium text-gray-700 mb-2"
+                  >
                     Email Address *
                   </label>
                   <input
@@ -148,7 +173,10 @@ const Contact = () => {
                 </div>
 
                 <div>
-                  <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
+                  <label
+                    htmlFor="phone"
+                    className="block text-sm font-medium text-gray-700 mb-2"
+                  >
                     Phone Number *
                   </label>
                   <input
@@ -165,7 +193,10 @@ const Contact = () => {
               </div>
 
               <div>
-                <label htmlFor="propertyType" className="block text-sm font-medium text-gray-700 mb-2">
+                <label
+                  htmlFor="propertyType"
+                  className="block text-sm font-medium text-gray-700 mb-2"
+                >
                   Property Interest
                 </label>
                 <select
@@ -185,7 +216,10 @@ const Contact = () => {
               </div>
 
               <div>
-                <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
+                <label
+                  htmlFor="message"
+                  className="block text-sm font-medium text-gray-700 mb-2"
+                >
                   Message *
                 </label>
                 <textarea
