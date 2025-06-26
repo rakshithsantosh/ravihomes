@@ -76,8 +76,7 @@ const Contact = () => {
                   <h4 className="font-semibold text-gray-900 mb-1">
                     Email Address
                   </h4>
-                  <p className="text-gray-600">info@nagarajhomes.com</p>
-                  <p className="text-gray-600">sales@nagarajhomes.com</p>
+                  <p className="text-gray-600">ravi.pragnay15@gmail.com</p>
                 </div>
               </div>
 

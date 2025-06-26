@@ -1,44 +1,82 @@
-import React from 'react';
-import { Home, Search, FileText, Wrench, Calculator, MapPin } from 'lucide-react';
+import React from "react";
+import {
+  Home,
+  Search,
+  FileText,
+  Wrench,
+  Calculator,
+  MapPin,
+} from "lucide-react";
 
 const Services = () => {
   const services = [
     {
       icon: <Search className="h-8 w-8" />,
       title: "Property Search",
-      description: "Find your perfect home with our extensive property database and expert guidance",
-      features: ["Customized search", "Market analysis", "Virtual tours", "Neighborhood insights"]
+      description:
+        "Find your perfect home with our extensive property database and expert guidance",
+      features: [
+        "Customized search",
+        "Market analysis",
+        "Virtual tours",
+        "Neighborhood insights",
+      ],
     },
     {
       icon: <Home className="h-8 w-8" />,
       title: "Buying Services",
       description: "Complete support throughout your property purchase journey",
-      features: ["Legal verification", "Price negotiation", "Documentation", "Registration support"]
+      features: [
+        "Legal verification",
+        "Price negotiation",
+        "Documentation",
+        "Registration support",
+      ],
     },
     {
       icon: <Calculator className="h-8 w-8" />,
       title: "Loan Assistance",
       description: "Get the best home loan deals with our banking partners",
-      features: ["Loan consultation", "Documentation help", "Best rates", "Quick approvals"]
+      features: [
+        "Loan consultation",
+        "Documentation help",
+        "Best rates",
+        "Quick approvals",
+      ],
     },
     {
       icon: <FileText className="h-8 w-8" />,
       title: "Legal Services",
       description: "Comprehensive legal support for all property transactions",
-      features: ["Title verification", "Agreement drafting", "Registration", "Due diligence"]
+      features: [
+        "Title verification",
+        "Agreement drafting",
+        "Registration",
+        "Due diligence",
+      ],
     },
     {
       icon: <Wrench className="h-8 w-8" />,
       title: "Construction",
       description: "Custom home construction with premium quality standards",
-      features: ["Custom design", "Quality materials", "Timely delivery", "Warranty support"]
+      features: [
+        "Custom design",
+        "Quality materials",
+        "Timely delivery",
+        "Warranty support",
+      ],
     },
     {
       icon: <MapPin className="h-8 w-8" />,
       title: "Investment Advisory",
       description: "Expert advice on property investments and market trends",
-      features: ["Market research", "ROI analysis", "Investment planning", "Portfolio management"]
-    }
+      features: [
+        "Market research",
+        "ROI analysis",
+        "Investment planning",
+        "Portfolio management",
+      ],
+    },
   ];
 
   return (
@@ -49,7 +87,8 @@ const Services = () => {
             Our Services
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Comprehensive real estate solutions tailored to your needs, from property search to final ownership
+            Comprehensive real estate solutions tailored to your needs, from
+            property search to final ownership
           </p>
         </div>
 
@@ -62,24 +101,27 @@ const Services = () => {
               <div className="bg-blue-100 w-16 h-16 rounded-2xl flex items-center justify-center text-blue-600 mb-6">
                 {service.icon}
               </div>
-              
+
               <h3 className="text-2xl font-bold text-gray-900 mb-4">
                 {service.title}
               </h3>
-              
+
               <p className="text-gray-600 mb-6 leading-relaxed">
                 {service.description}
               </p>
-              
+
               <ul className="space-y-2">
                 {service.features.map((feature, featureIndex) => (
-                  <li key={featureIndex} className="flex items-center text-sm text-gray-700">
+                  <li
+                    key={featureIndex}
+                    className="flex items-center text-sm text-gray-700"
+                  >
                     <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
                     {feature}
                   </li>
                 ))}
               </ul>
-              
+
               <button className="mt-6 w-full bg-blue-600 hover:bg-blue-700 text-white py-3 px-6 rounded-lg transition-colors font-semibold">
                 Learn More
               </button>
@@ -93,14 +135,14 @@ const Services = () => {
             Ready to Find Your Dream Home?
           </h3>
           <p className="text-xl mb-8 text-blue-100">
-            Let our experts guide you through every step of your property journey
+            Let our experts guide you through every step of your property
+            journey
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <button className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
-              Schedule Consultation
-            </button>
             <button className="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 rounded-lg font-semibold transition-all">
-              View Properties
+              <a href="http://ravipragnay.kw.com/search" target="_blank">
+                View Properties
+              </a>
             </button>
           </div>
         </div>
