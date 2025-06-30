@@ -1,5 +1,5 @@
-import React from 'react';
-import { MapPin, Bed, Bath, Square, Heart } from 'lucide-react';
+import React from "react";
+import { MapPin, Bed, Bath, Square, Heart } from "lucide-react";
 
 const FeaturedProperties = () => {
   const properties = [
@@ -11,8 +11,9 @@ const FeaturedProperties = () => {
       beds: 4,
       baths: 3,
       area: "2,400 sq ft",
-      image: "https://images.pexels.com/photos/1438832/pexels-photo-1438832.jpeg?auto=compress&cs=tinysrgb&w=600",
-      featured: true
+      image:
+        "https://images.pexels.com/photos/1438832/pexels-photo-1438832.jpeg?auto=compress&cs=tinysrgb&w=600",
+      featured: true,
     },
     {
       id: 2,
@@ -22,8 +23,9 @@ const FeaturedProperties = () => {
       beds: 3,
       baths: 2,
       area: "1,800 sq ft",
-      image: "https://images.pexels.com/photos/2079246/pexels-photo-2079246.jpeg?auto=compress&cs=tinysrgb&w=600",
-      featured: false
+      image:
+        "https://images.pexels.com/photos/2079246/pexels-photo-2079246.jpeg?auto=compress&cs=tinysrgb&w=600",
+      featured: false,
     },
     {
       id: 3,
@@ -33,8 +35,9 @@ const FeaturedProperties = () => {
       beds: 0,
       baths: 0,
       area: "2,000 sq ft",
-      image: "https://images.pexels.com/photos/1546168/pexels-photo-1546168.jpeg?auto=compress&cs=tinysrgb&w=600",
-      featured: false
+      image:
+        "https://images.pexels.com/photos/1546168/pexels-photo-1546168.jpeg?auto=compress&cs=tinysrgb&w=600",
+      featured: false,
     },
     {
       id: 4,
@@ -44,8 +47,9 @@ const FeaturedProperties = () => {
       beds: 5,
       baths: 4,
       area: "3,200 sq ft",
-      image: "https://images.pexels.com/photos/323776/pexels-photo-323776.jpeg?auto=compress&cs=tinysrgb&w=600",
-      featured: true
+      image:
+        "https://images.pexels.com/photos/323776/pexels-photo-323776.jpeg?auto=compress&cs=tinysrgb&w=600",
+      featured: true,
     },
     {
       id: 5,
@@ -55,8 +59,9 @@ const FeaturedProperties = () => {
       beds: 4,
       baths: 3,
       area: "2,800 sq ft",
-      image: "https://images.pexels.com/photos/1029599/pexels-photo-1029599.jpeg?auto=compress&cs=tinysrgb&w=600",
-      featured: true
+      image:
+        "https://images.pexels.com/photos/1029599/pexels-photo-1029599.jpeg?auto=compress&cs=tinysrgb&w=600",
+      featured: true,
     },
     {
       id: 6,
@@ -66,9 +71,10 @@ const FeaturedProperties = () => {
       beds: 3,
       baths: 2,
       area: "1,600 sq ft",
-      image: "https://images.pexels.com/photos/2102587/pexels-photo-2102587.jpeg?auto=compress&cs=tinysrgb&w=600",
-      featured: false
-    }
+      image:
+        "https://images.pexels.com/photos/2102587/pexels-photo-2102587.jpeg?auto=compress&cs=tinysrgb&w=600",
+      featured: false,
+    },
   ];
 
   return (
@@ -79,7 +85,8 @@ const FeaturedProperties = () => {
             Featured Properties
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Discover our handpicked selection of premium properties that offer exceptional value and quality living
+            Discover our handpicked selection of premium properties that offer
+            exceptional value and quality living
           </p>
         </div>
 

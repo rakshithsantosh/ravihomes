@@ -161,9 +161,11 @@ const Footer = () => {
             © 2025 Ravi Homes. All rights reserved.
           </div>
           <div className="flex items-center space-x-6 mt-4 md:mt-0 text-sm text-gray-400">
-            <span>KW</span>
-            <span>•</span>
-            <span>License: #02250246</span>
+            <span className="text-lg font-semibold mb-4">
+              Keller Williams East Bay
+            </span>
+            <span className="text-lg font-semibold mb-4">•</span>
+            <span className="text-lg font-semibold mb-4">DRE: #02250246</span>
           </div>
         </div>
       </div>
