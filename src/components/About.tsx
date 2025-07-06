@@ -93,7 +93,7 @@ const About = () => {
                 className="w-full h-96 object-cover"
               />
             </div>
-            <div className="absolute -bottom-8 -left-8 bg-yellow-500 text-white p-6 rounded-2xl shadow-xl">
+            <div className="absolute -bottom-8 -left-8 bg-yellow-500 text-white p-6 rounded-2xl shadow-xl sm:text-left">
               <div className="text-3xl font-bold mb-1"></div>
               <div className="text-sm">
                 Your Trusted Partner in the Home Buying Journey
