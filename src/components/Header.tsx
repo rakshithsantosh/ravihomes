@@ -53,10 +53,10 @@ const Header = () => {
 
           {/* Contact Info */}
           <div className="hidden lg:flex items-center space-x-4">
-            <div className="flex items-center space-x-2 text-sm text-gray-600">
+            {/* <div className="flex items-center space-x-2 text-sm text-gray-600">
               <Phone className="h-4 w-4" />
               <span>+(408) 540-4752</span>
-            </div>
+            </div> */}
             <div className="flex items-center space-x-2 text-sm text-gray-600">
               <Mail className="h-4 w-4" />
               <span>meet@ravihomes.us</span>

@@ -23,15 +23,15 @@ const Contact = () => {
 
             <div className="space-y-6">
               <div className="flex items-start space-x-4">
-                <div className="bg-blue-100 p-3 rounded-lg">
+                {/* <div className="bg-blue-100 p-3 rounded-lg">
                   <Phone className="h-6 w-6 text-blue-600" />
-                </div>
-                <div>
+                </div> */}
+                {/* <div>
                   <h4 className="font-semibold text-gray-900 mb-1">
                     Phone Numbers
                   </h4>
                   <p className="text-gray-600">+(408) 540-4752</p>
-                </div>
+                </div> */}
               </div>
 
               <div className="flex items-start space-x-4">
