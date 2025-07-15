@@ -30,7 +30,7 @@ const Contact = () => {
                   <h4 className="font-semibold text-gray-900 mb-1">
                     Phone Numbers
                   </h4>
-                  <p className="text-gray-600">+(510) 566-0668</p>
+                  <p className="text-gray-600">+(408) 540-4752</p>
                 </div>
               </div>
 
@@ -42,7 +42,7 @@ const Contact = () => {
                   <h4 className="font-semibold text-gray-900 mb-1">
                     Email Address
                   </h4>
-                  <p className="text-gray-600">ravi.pragnay15@gmail.com</p>
+                  <p className="text-gray-600">meet@ravihomes.com</p>
                 </div>
               </div>
 

@@ -105,13 +105,13 @@ const Footer = () => {
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-blue-400" />
                 <div>
-                  <p>+(510) 566-0668</p>
+                  <p>+(408) 540-4752</p>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-blue-400" />
                 <div>
-                  <p>ravi.pragnay15@gmail.com</p>
+                  <p>meet@ravihomes.com</p>
                 </div>
               </div>
             </div>
