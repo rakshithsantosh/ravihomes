@@ -42,7 +42,7 @@ const Contact = () => {
                   <h4 className="font-semibold text-gray-900 mb-1">
                     Email Address
                   </h4>
-                  <p className="text-gray-600">meet@ravihomes.com</p>
+                  <p className="text-gray-600">meet@ravihomes.us</p>
                 </div>
               </div>
 
